@@ -33,7 +33,7 @@ for i in range(7):
 
 # game variables
 hangman_status = 0
-words = ["IDE", "REPLIT", "PYTHON", "PYGAME"]
+words = ["RUST", "JAVA", "PYTHON", "PYGAME", "HANGMAN", "JAYESH"]
 word = random.choice(words)
 guessed = []
 
