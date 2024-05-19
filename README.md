@@ -29,6 +29,7 @@ Hangman is a classic word-guessing game where players attempt to guess a secret 
 ```
 **3 .** Run the hangman.py file to start the game.
 ```bash
+  cd Hangman-Game
   python hangman.py
 ```
  - #### Guess letters to uncover the secret word.Avoid making too many incorrect guesses to save the hanging man! Win by correctly guessing the word or lose by running out of guesses.
