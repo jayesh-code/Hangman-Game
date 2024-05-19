@@ -33,7 +33,7 @@ for i in range(7):
 
 # game variables
 hangman_status = 0
-words = ["RUST", "JAVA", "PYTHON", "PYGAME", "HANGMAN", "JAYESH"]
+words = ["APPLE", "JAVA", "PYTHON", "INDIA", "HANGMAN", "JAYESH"]
 word = random.choice(words)
 guessed = []
 
@@ -46,7 +46,7 @@ def draw():
     win.fill(WHITE)
 
     # draw title
-    text = TITLE_FONT.render("DEVELOPER HANGMAN", 1, BLACK)
+    text = TITLE_FONT.render("HANGMAN GAME", 1, BLACK)
     win.blit(text, (WIDTH/2 - text.get_width()/2, 20))
 
     # draw word
